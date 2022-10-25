@@ -1,8 +1,11 @@
-function alertFunction(){
-    var userInfo=document.getElementById('userName');
-    var userName=userInfo.value; 
-    alert('Hello '+userName);
-}
+//button dom
+buttonDom = document.getElementById("submit_button");
+//input dom
+inputDom = document.getElementById("input");
+//output dom
+outputDom = document.getElementById("output");
 
-var buttonDom = document.getElementById('buttonInput');
-buttonDom.addEventListener('click',alertFunction);
+buttonDom.addEventListener("click", () => {
+  outputDom.innerText ='Hello ' + inputDom.value;
+  inputDom.value = "";
+});

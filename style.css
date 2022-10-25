@@ -1,1 +1,26 @@
-h1{color: brown;}
+h1{
+    color: orangered;
+}
+.center {
+    text-align: center;
+    
+  }
+
+.output{
+    text-align: center;
+    
+}
+
+input{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+}
+
+.display_output{
+    margin-left: 5px;
+    color: darkolivegreen;
+    font-weight: 100;
+    font-size: xx-large;
+}
